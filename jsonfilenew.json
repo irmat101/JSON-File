@@ -3,14 +3,14 @@ window.location = "demo_json.php?x=" + myJSON;
 
 
 var myJSON = '{
-    "name": "Ian",
-    "age": "15",
-    "state": "California,"STabr":"CA"}';
+    "name": "irmat101",
+    "age": "16",
+    "STabr":"CA"}';
 var myObj = JSON.parse(myJSON);
 document.getElementById("demo").innerHTML = myObj.name;
 
 
-myObj = {name: "Ian", age: 15, state: "California" STabr: "CA"
+myObj = {name: "irmat101", age: 16, STabr: "CA"
     };
 myJSON = JSON.stringify(myObj);
 localStorage.setItem("testJSON", myJSON);
@@ -20,7 +20,7 @@ text = localStorage.getItem("testJSON");
 obj = JSON.parse(text);
 document.getElementById("demo").innerHTML = obj.name;
 
-var person = { name: "Ian", age: 15, state: "California" STabr: "CA"
+var person = { name: "irmat101", age: 16, STabr: "CA"
     };
 
 {
