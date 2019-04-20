@@ -1,0 +1,63 @@
+var myJSON = JSON.stringify(myObj);
+window.location = "demo_json.php?x=" + myJSON;
+
+
+var myJSON = '{
+    "name": "Ian",
+    "age": "15",
+    "state": "California,"STabr":"CA"}';
+var myObj = JSON.parse(myJSON);
+document.getElementById("demo").innerHTML = myObj.name;
+
+
+myObj = {name: "Ian", age: 15, state: "California" STabr: "CA"
+    };
+myJSON = JSON.stringify(myObj);
+localStorage.setItem("testJSON", myJSON);
+
+
+text = localStorage.getItem("testJSON");
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML = obj.name;
+
+var person = { name: "Ian", age: 15, state: "California" STabr: "CA"
+    };
+
+{
+        "middlename": null
+    }
+
+person.name;
+
+{
+        "games": [
+            {
+                "gamename": "Server clicker mobile",
+                "views": "2"
+            }
+{
+                "gamename": "Server clicker 1.12.5",
+                "views": "5"
+            }
+{
+                "gamename": "decider wheel",
+                "views": "7"
+            }
+{
+                "gamename": "fish attack 1.2.1",
+                "views": "10"
+            }
+{
+                "gamename": "circle jump 0.0.4",
+                "views": "6"
+            }
+{
+                "gamename": "hope orbit1.8.1",
+                "views": "6"
+            }
+        ]
+    }
+
+{
+        "gamepublic": true
+    }
